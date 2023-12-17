@@ -1,5 +1,5 @@
 1 7 CRMSystem/ 0 2 C++ 0
-2 4 shlyuha/ 13 2 C/C++ 2
+2 4 shlyapa/ 13 2 C/C++ 2
 3 7 new/ 5 0 fortran 0
 4 3 bebrau/ 8 1 java 2
-4 2 gawno na palke/ 15 2 python 1
+4 2 GNP/ 15 2 python 1
