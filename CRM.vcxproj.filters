@@ -1,0 +1,158 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Исходные файлы">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Файлы заголовков">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Файлы ресурсов">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Файлы заголовков\exception">
+      <UniqueIdentifier>{0f735ea2-dc3e-4071-9c1e-8c167937fa81}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\dataclasses">
+      <UniqueIdentifier>{d0433d73-17e2-435f-a273-ca5dd690481f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\exc">
+      <UniqueIdentifier>{ac0c486a-1080-4884-9044-c2f874986d23}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\App">
+      <UniqueIdentifier>{cc851f4d-57da-4c2b-b57b-328b9d42f956}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\Stack">
+      <UniqueIdentifier>{09d12ddc-f2ae-47cc-9a0e-d3ae4579e5f7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="clientCall.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="order.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="devOrder.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="engOrder.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="sysOrder.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="clientFeedBack.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="Interface.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="exception\Exception.cpp">
+      <Filter>Исходные файлы\exc</Filter>
+    </ClCompile>
+    <ClCompile Include="exception\file_exc.cpp">
+      <Filter>Исходные файлы\exc</Filter>
+    </ClCompile>
+    <ClCompile Include="exception\input_exc.cpp">
+      <Filter>Исходные файлы\exc</Filter>
+    </ClCompile>
+    <ClCompile Include="File.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="entity.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="customer.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="CRM.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="Algorithm.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="Filter.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="file_txt.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="resource.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="exception\Exception.h">
+      <Filter>Файлы заголовков\exception</Filter>
+    </ClInclude>
+    <ClInclude Include="exception\file_exc.h">
+      <Filter>Файлы заголовков\exception</Filter>
+    </ClInclude>
+    <ClInclude Include="exception\input_exc.h">
+      <Filter>Файлы заголовков\exception</Filter>
+    </ClInclude>
+    <ClInclude Include="clientCall.h">
+      <Filter>Файлы заголовков\dataclasses</Filter>
+    </ClInclude>
+    <ClInclude Include="devOrder.h">
+      <Filter>Файлы заголовков\dataclasses</Filter>
+    </ClInclude>
+    <ClInclude Include="clientFeedBack.h">
+      <Filter>Файлы заголовков\dataclasses</Filter>
+    </ClInclude>
+    <ClInclude Include="engOrder.h">
+      <Filter>Файлы заголовков\dataclasses</Filter>
+    </ClInclude>
+    <ClInclude Include="order.h">
+      <Filter>Файлы заголовков\dataclasses</Filter>
+    </ClInclude>
+    <ClInclude Include="sysOrder.h">
+      <Filter>Файлы заголовков\dataclasses</Filter>
+    </ClInclude>
+    <ClInclude Include="entity.h">
+      <Filter>Файлы заголовков\dataclasses</Filter>
+    </ClInclude>
+    <ClInclude Include="customer.h">
+      <Filter>Файлы заголовков\dataclasses</Filter>
+    </ClInclude>
+    <ClInclude Include="mainheader.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="Algorithm.h">
+      <Filter>Файлы заголовков\App</Filter>
+    </ClInclude>
+    <ClInclude Include="Interface.h">
+      <Filter>Файлы заголовков\App</Filter>
+    </ClInclude>
+    <ClInclude Include="File.h">
+      <Filter>Файлы заголовков\App</Filter>
+    </ClInclude>
+    <ClInclude Include="Filter.h">
+      <Filter>Файлы заголовков\App</Filter>
+    </ClInclude>
+    <ClInclude Include="file_txt.h">
+      <Filter>Файлы заголовков\App</Filter>
+    </ClInclude>
+    <ClInclude Include="Stack\Stack.h">
+      <Filter>Файлы заголовков\Stack</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Downloads\sort.h">
+      <Filter>Файлы заголовков\App</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="CRM.rc">
+      <Filter>Файлы ресурсов</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram.cd" />
+    <None Include="Stack\Stack.inl">
+      <Filter>Файлы заголовков\Stack</Filter>
+    </None>
+  </ItemGroup>
+</Project>
